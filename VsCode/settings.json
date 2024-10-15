@@ -4,28 +4,23 @@
     //过长则换行
     "editor.wordWrap": "off",
     "editor.fontFamily": "'0xProto', Monaco, 'Courier New', monospace",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.mouseWheelZoom": false,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Min Dark",
     "window.zoomPerWindow": true,
+    "window.zoomLevel": 1,
     "terminal.integrated.mouseWheelZoom": true,
     "terminal.integrated.fontSize": 14,
-    "editor.fontSize": 14,
+    "terminal.integrated.allowChords": false,
     //保存自动格式化
-    "editor.formatOnSave": true,
     //文件自动保存（当编辑器失去焦点）
     "files.autoSave": "onFocusChange",
     "keyboard.dispatch": "keyCode",
     "explorer.confirmDelete": false,
-    "terminal.integrated.allowChords": false,
-    "window.zoomLevel": 1,
-    //插件配置
-    //Color Highlight插件配置
-    "color-highlight.markerType": "dot-before",
-    "color-highlight.useARGB": true,
-    "color-highlight.matchWords": true,
-    "color-highlight.matchRgbWithNoFunction": true,
-    "color-highlight.matchHslWithNoFunction": true,
+    //Vim全配置
     //"vim.camelCaseMotion.enable": true,
     //高亮显示
     "vim.hlsearch": true,
@@ -282,5 +277,11 @@
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1,
     },
-    "workbench.colorTheme": "Min Dark",
+    //插件配置
+    //Color Highlight插件配置
+    "color-highlight.markerType": "dot-before",
+    "color-highlight.useARGB": true,
+    "color-highlight.matchWords": true,
+    "color-highlight.matchRgbWithNoFunction": true,
+    "color-highlight.matchHslWithNoFunction": true,
 }
