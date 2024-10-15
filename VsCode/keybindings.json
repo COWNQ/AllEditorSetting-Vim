@@ -42,7 +42,7 @@
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
-    //将当前行与上一行交换
+    //将当前行与上一行交换 
     {
         "key": "shift+alt+k",
         "command": "editor.action.moveLinesUpAction",
