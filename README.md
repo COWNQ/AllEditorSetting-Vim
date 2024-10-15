@@ -1,2 +1,2 @@
-# VimSettingConfig
-Vim full Configuration
+# Vim& All Editor
+All Editor && Vim | Configuration
